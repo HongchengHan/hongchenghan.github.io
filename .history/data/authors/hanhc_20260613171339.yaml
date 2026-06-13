@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: hanhc
 is_owner: true
 name:
-  display: Han Hongcheng
+  display: HAN Hongcheng
   given: Hongcheng
   family: Han
   alternate: '韩泓丞'  # Example: 王伟
@@ -15,7 +15,7 @@ status:
   icon: "☕️"
 role: PhD Candidate in Control Science and Engineering
 bio: |
-  Hongcheng Han (韩泓丞) received the degree of B.Eng. in School of Energy and Power Engineering, Xi’an Jiaotong University, Xi’an, China in 2020. 
+  Han Hongcheng (韩泓丞) received the degree of B.Eng. in School of Energy and Power Engineering, Xi’an Jiaotong University, Xi’an, China in 2020. 
   Since then, he is studying for Ph.D. degree in Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University. 
   His interests focus on intelligent transportation and medical image analysis, specializing in Multimodal data fusion and Image Synthesis.
 
