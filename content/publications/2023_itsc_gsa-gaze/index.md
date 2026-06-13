@@ -29,7 +29,7 @@ publication_types: ["article-conference"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)"
+  name: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
   # volume: 29
   # issue: 2
   # page: 799--806
