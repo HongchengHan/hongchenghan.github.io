@@ -1,5 +1,5 @@
 ---
-title: "AsyCMST: Asymmetric cross-modal spatio-temporal learning for multimodal ultrasound nodule recognition"
+title: "HSC-T: B-ultrasound-to-elastography translation via hierarchical structural consistency learning for thyroid cancer diagnosis"
 authors:
   - hanhc
   - Zhiqiang Tian
