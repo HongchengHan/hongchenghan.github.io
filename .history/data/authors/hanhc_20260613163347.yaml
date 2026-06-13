@@ -13,15 +13,15 @@ postnominals:
   # - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: PhD Candidate in Control Science and Engineering
 bio: |
   Hongcheng Han (韩泓丞) received the degree of B.Eng. in School of Energy and Power Engineering, Xi’an Jiaotong University, Xi’an, China in 2020. 
   Since then, he is studying for Ph.D. degree in Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University. 
   His interests focus on intelligent transportation and medical image analysis, specializing in Multimodal data fusion and Image Synthesis.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Xi’an Jiaotong University
+    url: https://www.xjtu.edu.cn/
 
 links:
   - icon: at-symbol
@@ -44,24 +44,24 @@ interests:
   - Medical Image Analysis
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: PhD Candidate
+    institution: Xi’an Jiaotong University
+    start: 2026-09
+    end: 2027-06
+    # summary: |
+    #   Thesis on medical image analysis. Published 2 papers in MedIA and JBHI.
+    # button:
+    #   text: Download dissertation
+    #   url: /resume.pdf
+    #   icon: hero/arrow-down-tray
+  - degree: MS Software Engineering
+    institution: Xi’an Jiaotong University
+    start: 2020-09
+    end: 2022-09
+  - degree: BS Energy and Power Engineering
+    institution: Xi’an Jiaotong University
+    start: 2016-09
+    end: 2020-06
 
 experience:
   - role: Senior AI Research Scientist
