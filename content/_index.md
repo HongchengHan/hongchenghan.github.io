@@ -38,11 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My research focuses on AI-driven medical image analysis, including medical image segmentation, multimodal fusion diagnosis, and cross-modal generation. Currently, I am dedicated to developing a visual foundation model for multimodal ultrasound imaging. This model is designed to support diverse modalities such as B-mode ultrasound, elastography, color Doppler ultrasound, and contrast-enhanced ultrasound, enabling diagnostic assistance for multiple diseases including thyroid and breast conditions.
     design:
       columns: '1'
   - block: collection
@@ -69,6 +65,7 @@ sections:
   - block: resume-awards
     content:
       title: Competitions
+      text: 'Competition Awards in Science and Technology'
       username: hanhc
   # - block: collection
   #   id: talks
