@@ -38,7 +38,7 @@ publication:
   name: "Medical Image Analysis"
   volume: 112
   # issue: 1
-  page: 104127
+  # page: 104127
 
 peer_reviewed: False
 open_access: False
@@ -53,12 +53,12 @@ abstract: "Multimodal ultrasound combining B-mode ultrasound (BUS) and contrast-
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Medical Image Analysis
 featured: True
 
-# hugoblox:
-#   ids:
-#     arxiv: 1512.04133v1
+hugoblox:
+  ids:
+    10.1016/j.media.2026.104127
 
 links:
   - type: source
@@ -100,10 +100,10 @@ projects: []
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
