@@ -117,8 +117,12 @@ awards:
     summary: Awarded for outstanding work on underwater image analysis and restoration.
     icon: hero/trophy
   - title: Third Prize in China Postgraduate Mathematical Contest in Modeling
-    awarder: Department of Degree Management and Graduate Education, Ministry of Education
+    awarder: Department of Degree Management and Graduate Education, Ministry of Education, China
     date: "2024-09-24"
     summary: Awarded for outstanding work on modeling and analysis of the magnetic field of electromagnetic components.
     icon: hero/trophy
-    
+  - title: Championship of SAE Aero Design Competition (Micro-class Airplane)
+    awarder: SAE, USA
+    date: "2019-04-10"
+    summary: The overall champion of all the events, and also the first place in the flying competition.
+    icon: hero/trophy
