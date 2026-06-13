@@ -111,8 +111,14 @@ languages:
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: First Prize in Asia-Pacific Mathematical Contest in Modeling (APMCM)
+    awarder: Organizing Committee of Asia and Pacific Mathematical Contest in Modeling
+    date: "2024-11-26"
+    summary: Awarded for outstanding work on underwater image analysis and restoration.
     icon: hero/trophy
+  - title: Third Prize in China Postgraduate Mathematical Contest in Modeling
+    awarder: Department of Degree Management and Graduate Education, Ministry of Education
+    date: "2024-09-24"
+    summary: Awarded for outstanding work on modeling and analysis of the magnetic field of electromagnetic components.
+    icon: hero/trophy
+    
