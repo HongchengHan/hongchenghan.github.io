@@ -8,7 +8,7 @@ authors:
 - Huanhuan Huo
 - Dong Zhang
 - Shanshan Yu
-- Juan Wang
+- Jue Jiang
 
 author_notes:
 -
@@ -18,7 +18,7 @@ author_notes:
 -
 -
 -
-- "Corresponding author"
+-
 
 date: "2025-03-01T00:00:00Z"
 
