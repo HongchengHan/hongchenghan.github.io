@@ -1,31 +1,29 @@
 ---
-title: "Coarse-to-fine feature representation based on deformable partition attention for melanoma identification"
+title: "A segment anything model for transesophageal echocardiography based on bidirectional spatiotemporal context fusion"
 authors:
-- Dong Zhang
-- Jing Yang
+- Minghao Wang
 - Shaoyi Du*
+- Juan Wang*
 - hanhc
-- Yuyan Ge
-- Longfei Zhu
-- Ce Li
-- Meifeng Xu*
-- Nanning Zheng
+- Huanhuan Huo
+- Dong Zhang
+- Shanshan Yu
+- Juan Wang
 
 author_notes:
 -
--
+- "Corresponding author"
 - "Corresponding author"
 -
 -
 -
 -
 - "Corresponding author"
-- 
 
-date: "2023-04-01T00:00:00Z"
+date: "2025-03-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-04-01T00:00:00Z"
+publishDate: "2025-03-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -34,9 +32,9 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Patern Recognition"
-  volume: 136
-  # issue: A
+  name: "Information Fuse"
+  volume: 127
+  issue: A
   # page: 3380 - 3393
 
 peer_reviewed: False
@@ -46,22 +44,22 @@ license: CC-BY-4.0
 # Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
 # Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
 
-abstract: "In the histopathological melanoma image diagnosis system, manual identification of super-scale slides with dense cells is tedious, time-consuming, and subjective. To deal with this problem, we propose an automatic identification network based on the deformable partition attention to identify lots of dense slides as an assistant. A coarse-to-fine strategy is adopted in feature representation and qualitative identification to improve the identification accuracy of melanomas and nevi. First of all, because it is difficult to extract features in the lesion area with blurred boundaries and uneven distribution, we develop a deformable partition attention module, which integrates the advantage of the attention mechanism and deformable convolution. The module overcomes the limitation of rectangular convolution and gradually refines the channel and spatial features, which enriches feature representation by combining global and local features. Secondly, to address the problem of difficult convergence and poor recognition rate caused by the excessive non-aligned distance between benign-malignant and benign subcategories, we propose a progressive architecture via a coarse sub-network closely followed by a fine sub-network. Moreover, to further increase the inter-class differences and reduce the intra-class disparities, we propose a joint loss function to mine hard samples, which effectively improves the identification performance. Experimental results on the clinical dataset show that the proposed algorithm has higher sensitivity and specificity and outperforms state-of-the-art deep neural networks."
+abstract: "Accurate segmentation of the left atrial appendage (LAA) in transesophageal echocardiography is the foundation for clinical evaluation. However, the ambiguous boundaries of the LAA, together with ultrasound noise and complex cardiac motion, make it challenging to obtain temporally consistent and spatially reliable segmentation results. Furthermore, existing works often process spatial and temporal features in isolation, without effectively leveraging spatiotemporal context fusion to enhance segmentation performance. To address these challenges, we propose a Segment Anything Model Based on Bidirectional Spatiotemporal Context Fusion (BiSTC-SAM). First, we design a spatiotemporal context network that encodes effective pixels associated with target changes, thereby mining temporal cues from spatial features. Building on this, we further develop a multi-scale context memory network that performs dynamic feature alignment, thereby integrating temporal representations to refine spatial features. We evaluate the segmentation and generalization performance of our method on a self-constructed transesophageal echocardiography dataset, and further assess its adaptability to different modalities on two publicly available transthoracic echocardiography datasets. Experimental results demonstrate that our method outperforms competing methods in terms of boundary segmentation accuracy and temporal consistency."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Patern Recognition
+- Information Fuse
 featured: False
 
 hugoblox:
   ids:
-    doi: 10.1016/j.patcog.2022.109247
+    doi: 10.1016/j.inffus.2025.103771
 
 links:
   - type: source
-    url: https://www.sciencedirect.com/science/article/abs/pii/S0031320322007269
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1566253525008334
   # - type: code
   #   url: https://github.com/hongchenghan/asycmst
   # - type: dataset
