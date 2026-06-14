@@ -1,20 +1,18 @@
 ---
-title: "AsyCMST: Asymmetric cross-modal spatio-temporal learning for multimodal ultrasound nodule recognition"
+title: "Keypoint-Guided Medical Video Segmentation Model With Spatiotemporal Feature Fusion"
 authors:
-- hanhc
-- Zhiqian Tian
 - Minghao Wang
-- Yutong Zhang
-- Dong Zhang
-- Qinbo Guo
-- Hui Guo
-- Jue Jiang
 - Shaoyi Du*
+- Huanhuan Huo
+- Juejiang
+- Dong Zhang
+- hanhc
+- Shengdi Hou
 - Juan Wang*
 
 author_notes:
 -
--
+- "Corresponding author"
 -
 -
 -
@@ -22,11 +20,11 @@ author_notes:
 -
 -
 - "Corresponding author"
-- "Corresponding author"
-date: "2026-07-01T00:00:00Z"
+
+date: "2026-03-16T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-06-13T00:00:00Z"
+publishDate: "2026-03-16T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -35,10 +33,10 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Medical Image Analysis"
-  volume: 112
-  # issue: 1
-  # page: 104127
+  name: "IEEE Transactions on Medical Imaging"
+  volume: 45
+  issue: 6
+  # page: 3380 - 3393
 
 peer_reviewed: False
 open_access: False
@@ -47,24 +45,24 @@ license: CC-BY-4.0
 # Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
 # Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
 
-abstract: "Multimodal ultrasound combining B-mode ultrasound (BUS) and contrast-enhanced ultrasound (CEUS) has become a powerful tool for diagnosing superficial nodules in the thyroid and breast, leveraging the complementary strengths of BUS spatial structure and CEUS temporal hemodynamics. However, existing fusion methods typically treat both modalities symmetrically or focus solely on modality-specific features, overlooking the inherent asymmetric bidirectional guidance between BUS spatial context and CEUS perfusion dynamics. To address this limitation, we propose AsyCMST, an asymmetric cross-modal spatio-temporal network for multimodal ultrasound nodule diagnosis. First, we design a multi-task learning module to enhance modality-specific representations, where frame self-sorting distills canonical contrast perfusion patterns in CEUS, while nodule segmentation reinforces precise lesion localization in BUS. Second, we propose an asymmetric cross-modal spatio-temporal attention mechanism to enable clinically meaningful directional interaction: BUS spatial cues guide CEUS temporal modeling toward lesion-relevant regions, and CEUS hemodynamic evolution refines ambiguous structural patterns in BUS. This design effectively captures the asymmetric interdependency between structure and function. Experiments on thyroid and breast datasets demonstrate that AsyCMST significantly outperforms state-of-the-art video understanding and multimodal ultrasound fusion methods in accuracy, F1-score, AUC, and cross-dataset generalization. These results validate the effectiveness of knowledge-driven asymmetric fusion and highlight its potential to advance clinical adoption of multimodal ultrasound analysis."
+abstract: "Atrial fibrillation, characterized by high prevalence and poor prognosis, presents a significant global health burden. Accurate segmentation and measurement of left ventricular and left atrial appendage morphology and function are essential for reliable risk assessment. However, these tasks are hindered by ambiguous boundaries, complex cardiac motion, and sparse annotations. To address these challenges, we propose a Keypoint-Guided Medical Video Segmentation Model with Spatiotemporal Feature Fusion (KG-STS). First, we propose a shape-constrained point encoder that explicitly encodes boundary points to improve the representation of ambiguous boundaries. Next, we introduce a motion-aware alignment module that models cardiac motion by forming coherent motion information across frames. Building on these two modules, we develop a keypoint-guided spatiotemporal feature fusion module that integrates spatial boundary representations with temporal motion cues to enhance decoding features under sparse annotations, enabling temporally consistent segmentation and supporting morphological measurement. We evaluate the segmentation and measurement performance of our method on a self-constructed multi-view transesophageal echocardiography dataset and two publicly available transthoracic echocardiography datasets. The results demonstrate that KG-STS achieves superior temporal consistency in segmentation and higher accuracy in morphological measurements compared to competing methods."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Medical Image Analysis
-featured: True
+- IEEE TMI
+featured: False
 
 hugoblox:
   ids:
-    doi: 10.1016/j.media.2026.104127
+    doi: 10.1109/TMI.2026.3674130
 
 links:
   - type: source
-    url: https://www.sciencedirect.com/science/article/abs/pii/S1361841526001969
-  - type: code
-    url: https://github.com/hongchenghan/asycmst
+    url: https://ieeexplore.ieee.org/document/11435119
+  # - type: code
+  #   url: https://github.com/hongchenghan/asycmst
   # - type: dataset
   #   url: ""
   # - type: poster
