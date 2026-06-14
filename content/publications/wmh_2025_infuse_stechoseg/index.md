@@ -1,30 +1,29 @@
 ---
-title: "Keypoint-Guided Medical Video Segmentation Model With Spatiotemporal Feature Fusion"
+title: "A segment anything model for transesophageal echocardiography based on bidirectional spatiotemporal context fusion"
 authors:
 - Minghao Wang
 - Shaoyi Du*
-- Huanhuan Huo
-- Juejiang
-- Dong Zhang
-- hanhc
-- Shengdi Hou
 - Juan Wang*
+- hanhc
+- Huanhuan Huo
+- Dong Zhang
+- Shanshan Yu
+- Juan Wang
 
 author_notes:
 -
 - "Corresponding author"
--
--
+- "Corresponding author"
 -
 -
 -
 -
 - "Corresponding author"
 
-date: "2026-03-16T00:00:00Z"
+date: "2025-03-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-03-16T00:00:00Z"
+publishDate: "2025-03-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -33,9 +32,9 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "IEEE Transactions on Medical Imaging"
-  volume: 45
-  issue: 6
+  name: "Information Fuse"
+  volume: 127
+  issue: A
   # page: 3380 - 3393
 
 peer_reviewed: False
@@ -45,22 +44,22 @@ license: CC-BY-4.0
 # Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
 # Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
 
-abstract: "Atrial fibrillation, characterized by high prevalence and poor prognosis, presents a significant global health burden. Accurate segmentation and measurement of left ventricular and left atrial appendage morphology and function are essential for reliable risk assessment. However, these tasks are hindered by ambiguous boundaries, complex cardiac motion, and sparse annotations. To address these challenges, we propose a Keypoint-Guided Medical Video Segmentation Model with Spatiotemporal Feature Fusion (KG-STS). First, we propose a shape-constrained point encoder that explicitly encodes boundary points to improve the representation of ambiguous boundaries. Next, we introduce a motion-aware alignment module that models cardiac motion by forming coherent motion information across frames. Building on these two modules, we develop a keypoint-guided spatiotemporal feature fusion module that integrates spatial boundary representations with temporal motion cues to enhance decoding features under sparse annotations, enabling temporally consistent segmentation and supporting morphological measurement. We evaluate the segmentation and measurement performance of our method on a self-constructed multi-view transesophageal echocardiography dataset and two publicly available transthoracic echocardiography datasets. The results demonstrate that KG-STS achieves superior temporal consistency in segmentation and higher accuracy in morphological measurements compared to competing methods."
+abstract: "Accurate segmentation of the left atrial appendage (LAA) in transesophageal echocardiography is the foundation for clinical evaluation. However, the ambiguous boundaries of the LAA, together with ultrasound noise and complex cardiac motion, make it challenging to obtain temporally consistent and spatially reliable segmentation results. Furthermore, existing works often process spatial and temporal features in isolation, without effectively leveraging spatiotemporal context fusion to enhance segmentation performance. To address these challenges, we propose a Segment Anything Model Based on Bidirectional Spatiotemporal Context Fusion (BiSTC-SAM). First, we design a spatiotemporal context network that encodes effective pixels associated with target changes, thereby mining temporal cues from spatial features. Building on this, we further develop a multi-scale context memory network that performs dynamic feature alignment, thereby integrating temporal representations to refine spatial features. We evaluate the segmentation and generalization performance of our method on a self-constructed transesophageal echocardiography dataset, and further assess its adaptability to different modalities on two publicly available transthoracic echocardiography datasets. Experimental results demonstrate that our method outperforms competing methods in terms of boundary segmentation accuracy and temporal consistency."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- IEEE TMI
+- Information Fuse
 featured: False
 
 hugoblox:
   ids:
-    doi: 10.1109/TMI.2026.3674130
+    doi: 10.1016/j.inffus.2025.103771
 
 links:
   - type: source
-    url: https://ieeexplore.ieee.org/document/11435119
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1566253525008334
   # - type: code
   #   url: https://github.com/hongchenghan/asycmst
   # - type: dataset
