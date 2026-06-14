@@ -60,6 +60,7 @@ sections:
         folders:
           - publications
         exclude_featured: false
+      count: 8
     design:
       view: citation
   - block: resume-awards
