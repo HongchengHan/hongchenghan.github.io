@@ -68,30 +68,32 @@ education:
     end: 2020-06
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Visiting Researcher
+    org: Digital Heart Lab, National University of Singapore
+    start: 2026-03-24
+    end: 2027-03-24
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Leading research on ultrasound image foundation models, aiming to enhance the accuracy and efficiency of cardiac ultrasound image analysis.
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Student Project Leader
+    org: Xi’an Jiaotong University
+    start: 2024-01-01
+    end: 2025-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      Working as the project leader of the central university foundation research project, 
+      leading a team of 5 members to conduct research on multimodal medical image analysis and synthesis. 
+      Published 2 papers in MedIA and JBHI.
 skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 5
+        level: 4
       - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+        level: 4
+      - label: Computer Vision
         level: 4
   - name: Research & Communication
     items:
@@ -103,10 +105,10 @@ skills:
         level: 4
 
 languages:
-  - name: English
+  - name: Mandarin Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 
