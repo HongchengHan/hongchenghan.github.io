@@ -78,14 +78,13 @@ experience:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: Student Project Leader
-    org: Xi’an Jiaotong University
-    start: 2024-01-01
-    end: 2025-12-31
-    summary: |
-      Working as the project leader of the central university foundation research project, 
-      leading a team of 5 members to conduct research on multimodal medical image analysis and synthesis. 
-      Published 2 papers in MedIA and JBHI.
+  # - role: AI Research Intern
+  #   org: OpenAI
+  #   start: 2019-06-01
+  #   end: 2019-12-31
+  #   summary: |
+  #     Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+
 skills:
   - name: Technical Skills
     items:
