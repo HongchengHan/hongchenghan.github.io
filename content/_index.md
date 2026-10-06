@@ -50,7 +50,7 @@ sections:
             <div style="display:grid; gap:0.8rem; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); margin:0.2rem 0 0;">
               <div style="border:1px solid rgba(127,127,127,0.2); border-radius:1rem; padding:1rem 1.1rem; background:linear-gradient(135deg, rgba(59,130,246,0.08), rgba(16,185,129,0.08));">
                 <div style="font-size:0.8rem; opacity:0.75; text-transform:uppercase; letter-spacing:0.08em;">Citations</div>
-                <div style="font-size:2rem; font-weight:700; margin-top:0.25rem;">137</div>
+                <div style="font-size:2rem; font-weight:700; margin-top:0.25rem;">142</div>
               </div>
               <div style="border:1px solid rgba(127,127,127,0.2); border-radius:1rem; padding:1rem 1.1rem; background:rgba(255,255,255,0.04);">
                 <div style="font-size:0.8rem; opacity:0.75; text-transform:uppercase; letter-spacing:0.08em;">h-index</div>
